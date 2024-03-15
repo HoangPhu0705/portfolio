@@ -22,7 +22,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import Csharp from "./tech/Csharp.png";
+import dart from "./tech/dart.png";
+import firebase from "./tech/firebase.png";
+import mysql from "./tech/mysql.png";
+import flutter from "./tech/flutter.png";
+import asp from "./tech/asp.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import sqlserver from "./tech/sqlserver.png";
 import tdt from "./company/TDT.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,6 +68,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  Csharp,
+  dart,
+  firebase,
+  flutter,
+  asp,
+  java,
+  mysql,
+  spring,
+  sqlserver,
   meta,
   shopify,
   starbucks,

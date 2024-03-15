@@ -15,7 +15,16 @@ import {
     git,
     figma,
     docker,
+    java,
+    Csharp,
+    spring,
+    flutter,
+    dart,
+    mysql,
+    sqlserver,
+    firebase,
     meta,
+    asp,
     starbucks,
     tdt,
     tesla,
@@ -58,7 +67,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Freelancer",
       icon: creator,
     },
   ];
@@ -77,16 +86,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "Tailwind CSS",
@@ -101,20 +110,24 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Spring",
+      icon: spring,
     },
+    // {
+    //   name: "c#",
+    //   icon: Csharp,
+    // },
     {
-      name: "docker",
-      icon: docker,
+      name: "asp",
+      icon: asp,
     },
   ];
   
@@ -128,7 +141,7 @@ import {
       points: [
         "Learning fundamental programming concepts and data structures.",
         "Understanding algorithms and their complexity analysis.",
-        "Developing software applications using various programming languages such as Java, C++, or Python.",
+        "Developing software applications using various programming languages such as C, Java, Javascript, C#, or Python.",
         "Working with databases and learning SQL for data manipulation and retrieval.",
         "Gaining knowledge of software engineering principles and best practices.",
         "Collaborating with peers on group projects to develop real-world software solutions.",
@@ -204,7 +217,7 @@ import {
         },
       ],
       image: calltel,
-      source_code_link: "https://github.com/HoangPhu0705/nodejs_callTel",
+      source_code_link: "https://github.com/HoangPhu0705/CallTel",
     },
     {
       name: "Male Fashion",
