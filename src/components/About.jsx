@@ -38,23 +38,25 @@ const InfoCard = () => {
                   Phan Hoang Phu
               </h3>
               <p className="text-secondary text-[14px] text-center mt-2">Software Engineer</p>
-
             </div>
 
            
 
-            <div
-              className="absolute bg-white/80 h-full w-full flex items-center justify-center opacity-0 rounded-2xl hover:opacity-100">
-
-              <button className="flex flex-col justify-center items-center w-full h-full">
+            <a
+              className="absolute bg-white/80 h-full w-full flex items-center justify-center opacity-0 rounded-2xl hover:opacity-100"
+              href="https://vietcv.io/phan-hoang-phu-cv"  
+              
+            >
+              
+              <button className="flex flex-col justify-center items-center w-full h-full ">
                 <img src= "https://img.icons8.com/carbon-copy/100/download.png" alt="title" 
                   className="w-16 h-16 object-contain rounded-full bg-white"
                 />
-                <p className="text-primary font-black">Download CV</p>
+                <p className="text-primary font-black">My CV</p>
               </button>
 
               
-            </div>
+            </a>
 
           </div>
       </motion.div>
