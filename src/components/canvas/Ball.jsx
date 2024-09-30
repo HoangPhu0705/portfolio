@@ -1,5 +1,6 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
+import PropTypes from 'prop-types';  // Import prop-types
 import {
   Decal,
   Float,
@@ -17,19 +18,16 @@ const Ball = (props) => {
       rotationIntensity={1}
       floatIntensity={2}
     >
-      <ambientLight intensity={0.25}/>
-      <directionalLight intensity={[0, 0, 0.05]}/>
+      <ambientLight />
+      <directionalLight/>
       <mesh
-        castShadow
-        receiveShadow
+
         scale={2.75}
       > 
-        <sphereGeometry args={[1, 32, 32]} />
+        <sphereGeometry  />
         <meshBasicMaterial
           color='#fff8eb'
-          polygonOffset
-          polygonOffsetFactor={-5}
-          flatShading
+
         />
 
         <Decal
@@ -44,6 +42,10 @@ const Ball = (props) => {
     </Float>
   )
 }
+
+Ball.propTypes = {
+  imgUrl: PropTypes.string.isRequired,  
+};
 
 
 const BallCanvas = ({icon}) => {
@@ -66,5 +68,9 @@ const BallCanvas = ({icon}) => {
     </Canvas>
   )
 }
+
+BallCanvas.propTypes = {
+  icon: PropTypes.string.isRequired,  
+};
 
 export default BallCanvas 
